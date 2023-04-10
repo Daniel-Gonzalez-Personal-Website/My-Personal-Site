@@ -133,10 +133,10 @@ p {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 20px;
-    /* text-align: center;   */
-    align-items: center;
-
-    
+    /* text-align: center;     */
+    height: 30vh;
+    width: 31vw;
+    /* align-items: center; */
+    /* align-content: center; */
   }
 
-  
