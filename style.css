@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+
+li {
+    display: inline;
+    float: right
+    
+}
+
+a {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+}
+
+
+.name {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px #c8c5c0 ;
+    margin-left: 50px;
+    font-size: xx-large;
+    margin-right: 750px;
+    }
+
+img {
+    
+  display: block;
+  margin-top: 65px;   
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+    margin-left: 50px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid white;
+}
+
+h2 {
+    margin-left: 50px;
+    color: white;
+}
+
+.spacer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.spacer2 {
+    margin-top: 75px;
+    margin-bottom: 125px;
+}
+
+.spacer3 {
+    padding-top: 125px;
+    margin-top: 125x;
+}
+.beach {
+    margin-left: 0px;
+    padding-bottom: 25px;
+    color: white;
+    border-bottom: solid black;
+}
+
+.hike {
+    margin-left: 0px;
+    padding-bottom: 25px;
+    color: white;
+    border-bottom: solid black
+}
+
+.gym {
+    margin-left: 0px;
+    padding-bottom: 25px;
+    color: white;
+    border-bottom: solid black
+}
+
+.beachPic {
+    height: 250px;
+    width: 400px;
+    float: left;
+}
+
+.trail {
+    height: 250px;
+    width: 400px;
+    float: left;
+}
+
+.barbell {
+    height: 250px;
+    width: 400px;
+    float: left;
+}
+
+p {
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 500px;
+    
+}
+
+ .grid-container { 
+     display: grid; 
+     grid-template-columns: auto auto auto;
+     background-color: #333;
+     padding: 10px;
+     height: 100vh;
+     
+   } 
+
+   .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    /* text-align: center;   */
+    align-items: center;
+
+    
+  }
+
+  
